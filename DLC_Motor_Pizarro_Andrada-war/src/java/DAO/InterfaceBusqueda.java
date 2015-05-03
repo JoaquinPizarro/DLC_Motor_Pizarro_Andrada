@@ -3,18 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BO;
-
-import Beans.BeanBusqueda;
+package DAO;
 
 /**
  *
  * @author Juaco
  */
-public interface BusquedaBO {
+public interface InterfaceBusqueda {
     
-    //funcion que vamos a implementar.
-    void validaBusqueda(BeanBusqueda obj);
+    Busqueda validaBusqueda(Busqueda obj);
     
     
 }
